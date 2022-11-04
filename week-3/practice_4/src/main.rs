@@ -1,5 +1,8 @@
 fn main() {
-    let isgood:bool = true;
-    println!("PAU is a good university? {}",isgood);
+    let age = 30;
+
+   if age>18 {}
+   println!("Your age is greater than 18")
 
 }
+
