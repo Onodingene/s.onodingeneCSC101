@@ -1,0 +1,9 @@
+fn main() {
+    // Array with datatype  (explicit integer datatype)
+    let city_arr:[&str;5] = ["Abuja", "Port-harcourt","Maiduguri","Kano","Lagos"];
+    println!("array size is: {}",city_arr.len());
+
+    for index in 0..5 {
+    	println!("City index {} is located in: {}",index,city_arr[index]);
+    }
+}
